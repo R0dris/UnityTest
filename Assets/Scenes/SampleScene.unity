@@ -1315,8 +1315,6 @@ GameObject:
   - component: {fileID: 2140553758}
   - component: {fileID: 2140553761}
   - component: {fileID: 2140553762}
-  - component: {fileID: 2140553763}
-  - component: {fileID: 2140553764}
   m_Layer: 0
   m_Name: frame4_0
   m_TagString: Untagged
@@ -1474,39 +1472,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2140553757}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc99269931736b4883afaa1fc60760a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerLife: 0
---- !u!114 &2140553763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2140553757}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e71acaa5522b61245ad9431037f40818, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  powerUp: 0
---- !u!114 &2140553764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2140553757}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26f9f95914ee45f438bdb8b2e0434b05, type: 3}
+  m_Script: {fileID: 11500000, guid: c04fe6e91177fab48bf172297be17a33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUp: 1
-  lifePlayer: 0
+  horas: 23
+  dias: 1
+  minutos: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
