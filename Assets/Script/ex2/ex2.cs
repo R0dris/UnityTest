@@ -18,11 +18,11 @@ public class ex2 : MonoBehaviour
     void Start()
     {
 
-        print("Dano inicial é: " + dmg);
+    
         while (ataque < 5)
         {   
-            dmg = dmg + 2;
             print("Dano de: " + dmg);
+            dmg = dmg + 2;
             ataque++;
         }
     }
